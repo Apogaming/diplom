@@ -1,0 +1,10 @@
+.page__top {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url("../../../images/page-bg.png") no-repeat center;
+    font-family: Roboto;
+}

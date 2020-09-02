@@ -1,0 +1,5 @@
+@import url(./__bottom/page__bottom.css);
+@import url(./__top/page__top.css);
+.page{
+    font-family: Roboto;
+}

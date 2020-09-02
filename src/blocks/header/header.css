@@ -1,0 +1,15 @@
+@import url(./__logo/header__logo.css);
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 86%;
+    padding: 0 7%;
+    height: 80px;
+    border-bottom: 3px solid #C4C4C4;
+}
+  
