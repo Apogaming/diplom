@@ -1,9 +1,0 @@
-@import url(./_facebook/menu__socials_facebook.css);
-@import url(./_github/menu__socials_github.css);
-
-.menu__socials{
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    list-style-type: none;
-}
