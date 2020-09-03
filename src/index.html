@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NewsAnalyzer</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
 </head>
 
 <body class="body">
@@ -36,7 +36,7 @@
         </div>
         <div class="page__bottom">
             <section class="author">
-                <img src="./images/image-03.png" alt="photo dima :D" class="author__image">
+                <img src="<%=require('./images/image-03.png').default%>" alt="photo author" class="author__image">
             <div class="author__about">
                 <h2 class="author__title">Об авторе</h2>
                 <p class="author__text">
@@ -64,12 +64,12 @@
                 <ul class="menu__socials">
                     <li>
                         <a href="https://github.com/" class="menu__socials menu__socials_github">
-                            <img src="./images/github.svg" alt="GitHub">
+                            <img src="<%=require('./images/github.svg').default%>" alt="GitHub">
                         </a>
                     </li>
                     <li>
                         <a href="https://facebook/" class="menu__socials menu__socials_facebook">
-                            <img src="./images/fb.svg" alt="Facebook">
+                            <img src="<%=require('./images/fb.svg').default%>" alt="Facebook">
                         </a>
                     </li>
                 </ul>
