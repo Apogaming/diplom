@@ -11,46 +11,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6d54f7c-8a0d-4cf4-a6af-eb89126fcb90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/optipng" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/optipng" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/optipng.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/optipng.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/pngquant" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/pngquant" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/pngquant.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/pngquant.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/regjsparser" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/regjsparser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/regjsparser.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/regjsparser.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/rimraf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/rimraf.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/seek-bunzip" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/seek-bunzip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/seek-bunzip.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/seek-bunzip.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/seek-table" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/seek-table" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/seek-table.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/seek-table.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/semver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/semver.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sha.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sha.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sha.js.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sha.js.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/strip-indent" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/strip-indent" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/strip-indent.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/strip-indent.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/svgo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/svgo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/svgo.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/svgo.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/terser" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/terser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/terser.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/terser.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/webpack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/webpack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/webpack-cli" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/webpack-cli" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/webpack-cli.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/webpack-cli.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/webpack-dev-server" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/webpack-dev-server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/webpack-dev-server.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/webpack-dev-server.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/webpack.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/webpack.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/which" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/which" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/which.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/which.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-releases/.github/workflows/nightly-sync.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-releases/.github/workflows/nightly-sync.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-releases/data/processed/envs.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-releases/data/processed/envs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-releases/data/raw/iojs.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-releases/data/raw/iojs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-releases/data/raw/nodejs.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-releases/data/raw/nodejs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/CssSyntaxError.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/CssSyntaxError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/Warning.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/Warning.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/options.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/options.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-icss-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-icss-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-import-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-import-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-url-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-url-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/getUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/getUrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/dist/cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/dist/cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/dist/options.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/dist/options.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/image-webpack-loader/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/image-webpack-loader/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/image-webpack-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/image-webpack-loader/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/image-webpack-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/image-webpack-loader/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/image-webpack-loader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/image-webpack-loader/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/image-webpack-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/image-webpack-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/image-webpack-loader/test/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/image-webpack-loader/test/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/image-webpack-loader/test/test.svg" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/image-webpack-loader/test/test.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/image-webpack-loader/test/webpack1.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/image-webpack-loader/test/webpack1.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/image-webpack-loader/test/webpack2.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/image-webpack-loader/test/webpack2.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/image-webpack-loader/test/webpack4.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/image-webpack-loader/test/webpack4.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +85,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Study\Diplom_1\diplom\src" />
+      <recent name="H:\Study\Diplom_1\diplom\src\pages" />
       <recent name="C:\Users\ApoGaming\Desktop\Study\diplom\src" />
     </key>
   </component>
@@ -104,7 +106,7 @@
       <workItem from="1598958543531" duration="849000" />
       <workItem from="1599076025953" duration="564000" />
       <workItem from="1599077110243" duration="625000" />
-      <workItem from="1599120351607" duration="304000" />
+      <workItem from="1599120351607" duration="3021000" />
     </task>
     <servers />
   </component>
