@@ -1,6 +1,16 @@
-.technology__images{
+.technology__images {
     display: flex;
     justify-content: space-around;
     margin-right: 30px;
-    width: 100%;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .technology__images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 16px;
+        justify-content: center;
+        margin: 0 0 0 0;
+    }
 }

@@ -1,0 +1,17 @@
+.button-show-more{
+    max-width: 450px;
+    margin: 64px auto 0;
+    padding: 20px 84px;
+    display: block;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    background: #fff;
+    border-radius: 80px;
+    border: 1.5px solid transparent;
+}
+.button-show-more:hover{
+    cursor: pointer;
+    background: #e0e0e0;
+}

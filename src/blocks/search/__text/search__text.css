@@ -1,4 +1,6 @@
 .search__text {
+    font-family: Roboto Slab;
+    font-style: normal;
     max-width: 545px;
     font-size: 18px;
     line-height: 24px;

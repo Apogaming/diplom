@@ -1,0 +1,23 @@
+@import url(./card__img/card__img.css);
+@import url(./card__date/card__date.css);
+@import url(./card__title/card__title.css);
+@import url(./card__text/card__text.css);
+@import url(./card__source/card__source.css);
+
+
+.card{
+    background-color: #fff;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 16px;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .card{
+        height: auto;
+    }
+}
