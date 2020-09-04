@@ -9,6 +9,8 @@ const isDev = process.env.NODE_ENV === 'development'; // создаем пере
 module.exports = {
     entry: './src/index.js',
     entry: './src/about.js',
+    entry: './src/index.js',
+    entry: './src/analytics.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].[chunkhash].js',
@@ -102,6 +104,11 @@ module.exports = {
             inject: false, // стили НЕ нужно прописывать внутри тегов
             template: './src/about.html', // откуда брать образец для сравнения с текущим видом проекта
             filename: 'about.html', // имя выходного файла, то есть того, что окажется в папке dist после сборки
+        }),
+        new HtmlWebpackPlugin({
+            inject: false, // стили НЕ нужно прописывать внутри тегов
+            template: './src/analytics.html', // откуда брать образец для сравнения с текущим видом проекта
+            filename: 'analytics.html', // имя выходного файла, то есть того, что окажется в папке dist после сборки
         }),
         new WebpackMd5Hash(),
         new webpack.DefinePlugin({
