@@ -7,8 +7,8 @@
     <title>NewsAnalyzer</title>
     <meta name="description" content="Что в мире творится? Поиск новостей">
     <meta name="author" content="Tuan Anh Nguyen">
-    <!-- <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>"> -->
-    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+    <!-- <link rel="stylesheet" href="./pages/index.css"> -->
 </head>
 
 <body class="body">
@@ -39,13 +39,13 @@
         </div>
         <div class="page__mid">
             <div class="loading">
-                <!-- <img src="<%=require('./images/Ellipse.png').default%>" alt="photo author" class="author__image"> -->
-                <img src="./images/Ellipse.png" alt="loading" class="loading__images">
+                <img src="<%=require('./images/Ellipse.png').default%>" alt="photo author" class="author__image">
+                <!-- <img src="./images/Ellipse.png" alt="loading" class="loading__images"> -->
                 <p class="loading__text">Идет поиск новостей...</p>
             </div>
             <div class="not-found">
-                <!-- <img src="<%=require('./images/not-found.png').default%>" alt="Ничего не нашли" class="not-found__icon"> -->
-                <img src="./images/not-found.png" alt="Ничего не нашли" class="not-found__icon">
+                <img src="<%=require('./images/not-found.png').default%>" alt="Ничего не нашли" class="not-found__icon">
+                <!-- <img src="./images/not-found.png" alt="Ничего не нашли" class="not-found__icon"> -->
                 <h2 class="not-found__title">Ничего не найдено</h2>
                 <p class="not-found__text">К сожалению по вашему запросу
                     ничего не найдено.</p>
@@ -55,12 +55,14 @@
                     <div class="resul-seach__top">
                         <h2 class="resul-seach__title">Результаты поиска</h2>
                         <a href="./analytics.html" class="resul-seach__link">Посмотреть аналитику 
-                            <img src="./images/Path 5.png" alt="arrow">
+                            <img src="<%=require('./images/Path 5.png').default%>" alt="arrow ">
+                            <!-- <img src="./images/Path 5.png" alt="arrow"> -->
                         </a>
                     </div>
                     <div class="resul-seach__cards">
                         <div class="card">
-                            <img src="./images/image_01.png" alt="#" class="card__img">
+                            <img src="<%=require('./images/image_01.png').default%>" alt="#" class="card__img">
+                            <!-- <img src="./images/image_01.png" alt="#" class="card__img"> -->
                             <p class="card__date">2 августа, 2019</p>
                             <h3 class="card__title">Национальное достояние – парки</h3>
                             <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
@@ -69,7 +71,8 @@
                             <p class="card__source">Лента.ру</p>
                         </div>
                         <div class="card">
-                            <img src="./images/image_04.png" alt="#" class="card__img">
+                            <img src="<%=require('./images/image_04.png').default%>" alt="#" class="card__img">
+                            <!-- <img src="./images/image_04.png" alt="#" class="card__img"> -->
                             <p class="card__date">2 августа, 2019</p>
                             <h3 class="card__title">Лесные огоньки: история одной фотографии</h3>
                             <p class="card__text">Фотограф отвлеклась от освещения суровой политической реальности
@@ -78,7 +81,8 @@
                             <p class="card__source">Медуза</p>
                         </div>
                         <div class="card">
-                            <img src="./images/image_05.png" alt="#" class="card__img">
+                            <img src="<%=require('./images/image_05.png').default%>" alt="#" class="card__img">
+                            <!-- <img src="./images/image_05.png" alt="#" class="card__img"> -->
                             <p class="card__date">2 августа, 2019</p>
                             <h3 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
                             <p class="card__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать
@@ -87,7 +91,8 @@
                             <p class="card__source">Риа</p>
                         </div>
                         <div class="card">
-                            <img src="./images/image_06.png" alt="#" class="card__img">
+                            <img src="<%=require('./images/image_06.png').default%>" alt="#" class="card__img">
+                            <!-- <img src="./images/image_06.png" alt="#" class="card__img"> -->
                             <p class="card__date">2 августа, 2019</p>
                             <h3 class="card__title">Национальное достояние – парки</h3>
                             <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
@@ -96,7 +101,8 @@
                             <p class="card__source">Дзен</p>
                         </div>
                         <div class="card">
-                            <img src="./images/image_07.png" alt="#" class="card__img">
+                            <img src="<%=require('./images/image_07.png').default%>" alt="#" class="card__img">
+                            <!-- <img src="./images/image_07.png" alt="#" class="card__img"> -->
                             <p class="card__date">2 августа, 2019</p>
                             <h3 class="card__title">Лесные огоньки: история одной фотографии</h3>
                             <p class="card__text">Фотограф отвлеклась от освещения суровой политической реальности
@@ -105,7 +111,8 @@
                             <p class="card__source">Афиша</p>
                         </div>
                         <div class="card">
-                            <img src="./images/image_08.png" alt="#" class="card__img">
+                            <img src="<%=require('./images/image_08.png').default%>" alt="#" class="card__img">
+                            <!-- <img src="./images/image_08.png" alt="#" class="card__img"> -->
                             <p class="card__date">2 августа, 2019</p>
                             <h3 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
                             <p class="card__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать
@@ -120,8 +127,8 @@
         </div>
         <div class="page__bottom">
             <section class="author">
-                <!-- <img src="<%=require('./images/image-03.png').default%>" alt="photo author" class="author__image"> -->
-                <img src="./images/image-03.png" alt="photo author" class="author__image">
+                <img src="<%=require('./images/image-03.png').default%>" alt="photo author" class="author__image">
+                <!-- <img src="./images/image-03.png" alt="photo author" class="author__image"> -->
                 <div class="author__about">
                     <h2 class="author__title">Об авторе</h2>
                     <p class="author__text">
@@ -150,14 +157,14 @@
                 <ul class="menu__socials">
                     <li>
                         <a href="https://github.com/" class="menu__socials menu__socials_github">
-                            <!-- <img src="<%=require('./images/github.svg').default%>" alt="GitHub"> -->
-                            <img src="./images/github.svg" alt="GitHub">
+                            <img src="<%=require('./images/github.svg').default%>" alt="GitHub">
+                            <!-- <img src="./images/github.svg" alt="GitHub"> -->
                         </a>
                     </li>
                     <li>
                         <a href="https://facebook/" class="menu__socials menu__socials_facebook">
-                            <!-- <img src="<%=require('./images/fb.svg').default%>" alt="Facebook"> -->
-                            <img src="./images/fb.svg" alt="Facebook">
+                            <img src="<%=require('./images/fb.svg').default%>" alt="Facebook">
+                            <!-- <img src="./images/fb.svg" alt="Facebook"> -->
                         </a>
                     </li>
                 </ul>
