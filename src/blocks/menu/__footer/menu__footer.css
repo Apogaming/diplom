@@ -4,3 +4,8 @@
     flex-wrap: wrap;
     padding: 0;
 }
+@media screen and (max-width: 350px){
+    .menu__footer{
+        max-width: 115px;
+    }
+    }

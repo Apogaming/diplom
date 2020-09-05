@@ -5,9 +5,13 @@
 @import url(./__button/search__button.css);
 
 .search {
-    padding-bottom: 52px;
-    color: #fff;
-    max-width: 608px;
+    max-width: 610px;
+    position: relative;
     margin: 0 auto;
-    padding-top: 80px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
 }
+

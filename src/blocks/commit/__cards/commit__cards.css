@@ -5,3 +5,12 @@
     justify-content: center;
     margin-top: 60px;
 }
+@media screen and (max-width: 498px) {
+    .commit__cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 60px;
+    }
+}

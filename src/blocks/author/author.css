@@ -9,7 +9,7 @@
     margin: 0 auto;
     display: flex;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 439px) {
     .author{
         display: flex;
     flex-direction: column;

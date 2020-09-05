@@ -9,3 +9,9 @@
 .commit__link:hover{
     color: #b6bcbf;
 }
+@media screen and (max-width: 320px) {
+    .commit__link{
+        display: none;
+
+    }
+}

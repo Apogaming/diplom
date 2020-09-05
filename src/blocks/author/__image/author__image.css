@@ -15,8 +15,15 @@
 
 @media screen and (max-width: 768px) {
     .author__image{
-       width: 220x;
-       height: 220px;
+       max-width: 220x;
+       max-height: 220px;
+       margin: 61px 34px 61px 40px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .author__image{
+        max-width: 272px;
+        max-height: 272px;
        margin: 61px 34px 61px 40px;
     }
 }

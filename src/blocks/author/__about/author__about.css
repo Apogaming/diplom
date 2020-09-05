@@ -12,4 +12,10 @@
     }
 }
 
-
+@media screen and (max-width: 324px) {
+    .author__about{
+        margin: 0 0 0 0;
+        padding: 0 16px;
+        max-width: 100%
+    }
+}

@@ -29,3 +29,10 @@
     }
     
 }
+
+@media screen and (max-width: 320px) {
+    .commit {
+        padding: 32px 16;
+    }
+    
+}

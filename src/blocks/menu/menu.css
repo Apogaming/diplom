@@ -6,7 +6,10 @@
 @import url(./__socials/menu__socials.css);
 
 
-.menu{
-display: flex;
-flex-direction: row;
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
 }
+
