@@ -22,3 +22,8 @@
         width: 100%;
     }
 }
+
+.search__button:hover{
+    background: #347eff;
+    cursor: pointer;
+}

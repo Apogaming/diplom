@@ -2,10 +2,19 @@
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
+
 }
-@media screen and (max-width: 350px){
-    .menu__footer{
+
+@media screen and (max-width: 779px) {
+    .menu__footer {
+        padding-inline-start: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 350px) {
+    .menu__footer {
         max-width: 115px;
     }
-    }
+}

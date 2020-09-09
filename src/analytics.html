@@ -7,8 +7,8 @@
     <title>NewsAnalyzer</title>
     <meta name="description" content="Что в мире творится? Поиск новостей по всему миру, популярность статей, аналитика ...">
 
-    <!-- <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>"> -->
-    <link rel="stylesheet" href="./pages/analytics/analytics.css">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+    <!-- <link rel="stylesheet" href="./pages/analytics.css"> -->
 </head>
 
 <body>
@@ -17,10 +17,10 @@
         <nav class="menu">
             <ul class="menu__header">
                 <li>
-                    <a href="./index.html" class="menu__main menu__main_hover menu__main_black">Главная</a>
+                    <a href="./index.html" class="menu__main menu__main_hover menu__main_gray">Главная</a>
                 </li>
                 <li>
-                    <a href="./about.html" class="menu__project menu__project_hover menu__project_black">О проекте</a>
+                    <a href="./about.html" class="menu__project  menu__project_gray">О проекте</a>
                 </li>
             </ul>
         </nav>
@@ -56,10 +56,10 @@
             <li class="diagramma__scale diagramma__scale_number">100</li>
         </ul>
         <div class="diagramma__img">
-            <img src="<%=require('./images/dates.png').default%>" alt="date">
-            <img src="<%=require('./images/Group 12.png').default%>" alt="diagramma">
-            <!-- <img src="./images/dates.png" alt="date">
-            <img src="./images/Group 12.png" alt="diagramma"> -->
+            <img src="<%=require('./images/dates.png')%>" alt="date">
+            <img src="<%=require('./images/Group_12.png')%>" alt="diagramma">
+            <!-- <img src="./images/dates.png" alt="date" class="diagramma__img diagramma__img_date"> -->
+            <!-- <img src="./images/Group_12.png" alt="diagramma" class="diagramma__img diagramma__img_scale"> -->
         </div>
         <ul class="diagramma__scale">
             <li class="diagramma__scale diagramma__scale_number">0</li>
@@ -87,19 +87,20 @@
             <ul class="menu__socials">
                 <li>
                     <a href="https://github.com/" class="menu__socials menu__socials_github">
-                        <img src="<%=require('./images/github.svg').default%>" alt="GitHub">
+                        <img src="<%=require('./images/github.svg')%>" alt="GitHub">
                         <!-- <img src="./images/github.svg" alt="GitHub"> -->
                     </a>
                 </li>
                 <li>
                     <a href="https://facebook/" class="menu__socials menu__socials_facebook">
-                        <img src="<%=require('./images/fb.svg').default%>" alt="Facebook">
+                        <img src="<%=require('./images/fb.svg')%>" alt="Facebook">
                         <!-- <img src="./images/fb.svg" alt="Facebook"> -->
                     </a>
                 </li>
             </ul>
         </nav>
     </footer>
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 
 </html>

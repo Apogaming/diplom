@@ -6,8 +6,9 @@
 
 .resul-seach{
     background-color: #f5f6f7;
-    padding: 80px 100px;
-    display: block;
+    padding: 80px 4%;
+    display: flex;
+    justify-content: center;
 }
 @media screen and (max-width: 768px) {
     .resul-seach{

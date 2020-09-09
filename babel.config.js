@@ -4,7 +4,7 @@ const presets = [
         {
             targets: { // указать цели, для полифилов
                 edge: "17",
-                ie: "10",
+                ie: "11",
                 firefox: "50",
                 chrome: "64",
                 safari: "11.1",
@@ -14,8 +14,10 @@ const presets = [
         }
     ],
 ];
-
+const plugins = [
+    '@babel/plugin-proposal-class-properties'
+]
 module.exports = {
     presets,
-    plugins: ['@babel/plugin-proposal-class-properties']
+    plugins
 };

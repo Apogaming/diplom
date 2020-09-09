@@ -1,9 +1,11 @@
 .page__top {
-    display: flex;
-    flex-direction: column;
-    max-width: 1440px;
-    margin: 0 auto;
-    background: url("../../../images/page-bg.png") no-repeat center;
+    position: relative;
+    max-width: 100%;
+    min-height: 576px;
+    background-image: url("../../../images/page-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Roboto;
+    
 }
 

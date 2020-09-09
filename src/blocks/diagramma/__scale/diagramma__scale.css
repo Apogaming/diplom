@@ -7,3 +7,9 @@
     margin: 16px 0 8px 52px;
     list-style-type: none;
 }
+
+@media screen and (max-width: 512px) {
+    .diagramma__scale {
+        display: none;
+    }
+}

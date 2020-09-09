@@ -4,9 +4,7 @@
     justify-content:space-between ;
     justify-items: center;
 }
-
-
-@media screen and (max-width: 328px) {
+@media screen and (max-width: 420px) {
     .resul-seach__top {
         display: flex;
         flex-direction: column;
@@ -16,3 +14,5 @@
     }
 
 }
+
+

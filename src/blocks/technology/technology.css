@@ -1,7 +1,6 @@
 @import url(./__title/technology__title.css);
 @import url(./__images/technology__images.css);
 .technology {
-    max-width: 1440px;
     margin: 0 auto;
     padding: 90px 7%;
     display: flex;

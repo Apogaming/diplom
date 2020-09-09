@@ -9,7 +9,7 @@
     line-height: 24px;
 }
 
-@media screen and (max-width: 324px) {
+@media screen and (max-width: 350px) {
     .menu__yandex-praktikum {
         font-size: 16px;
       line-height: 24px;
