@@ -2,28 +2,28 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
-    src: url(vendor/fonts/roboto-regular.woff) format("woff")
+    src: url(vendor/roboto-regular.woff) format("woff")
 }
 
 @font-face {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    src: url(vendor/fonts/roboto-medium.woff) format("woff")
+    src: url(vendor/roboto-medium.woff) format("woff")
 }
 
 @font-face {
     font-family: Robotoslab;
     font-style: normal;
     font-weight: 400;
-    src: url(vendor/fonts/robotoslab-regular.woff) format("woff")
+    src: url(vendor/robotoslab-regular.woff) format("woff")
 }
 
 @font-face {
     font-family: Sourcesanpro;
     font-style: normal;
     font-weight: 400;
-    src: url(vendor/fonts/sourcesanspro-regular.woff) format("woff")
+    src: url(vendor/sourcesanspro-regular.woff) format("woff")
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
