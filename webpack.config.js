@@ -67,18 +67,25 @@ module.exports = {
             },
 
             {
-                test: /\.(woff|woff2|ttf|eot)$/,
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            name: './vendor/fonts/[name].[ext]', // указали папку, куда складывать шрифты
-                        },
-                    },
-                ],
-            },
-        ],
+                test: /\.(eot|ttf|woff|woff2)$/,
+                loader: 'file-loader?name=./vendor/[name].[ext]'
+            }
+        ]
     },
+
+    //         {
+    //             test: /\.(woff|woff2|ttf)$/,
+    //             use: [
+    //                 {
+    //                     loader: 'file-loader',
+    //                     options: {
+    //                         name: './vendor/[name].[ext]', // указали папку, куда складывать шрифты
+    //                     },
+    //                 },
+    //             ],
+    //         },
+    //     ],
+    // },
 
     plugins: [
         new MiniCssExtractPlugin({
