@@ -70,26 +70,12 @@ module.exports = {
                 test: /\.(eot|ttf|woff|woff2)$/,
                 loader: 'file-loader?name=./vendor/[name].[ext]'
             }
-        ]
+        ],
     },
-
-    //         {
-    //             test: /\.(woff|woff2|ttf)$/,
-    //             use: [
-    //                 {
-    //                     loader: 'file-loader',
-    //                     options: {
-    //                         name: './vendor/[name].[ext]', // указали папку, куда складывать шрифты
-    //                     },
-    //                 },
-    //             ],
-    //         },
-    //     ],
-    // },
 
     plugins: [
         new MiniCssExtractPlugin({
-            filename: './css/[name].[contenthash].css',
+            filename: '[name].[contenthash].css',
         }),
         new webpack.DefinePlugin({
             NODE_ENV: JSON.stringify(process.env.NODE_ENV),
