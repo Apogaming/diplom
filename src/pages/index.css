@@ -13,6 +13,7 @@
 @import url(../blocks/card/card.css);
 @import url(../blocks/resul-seach/resul-seach.css);
 @import url(../blocks/button-show-more/button-show-more.css);
+@import url(../blocks/hidden/hidden.css);
 
 
 body {

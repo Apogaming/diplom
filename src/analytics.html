@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NewsAnalyzer</title>
-    <meta name="description" content="Что в мире творится? Поиск новостей по всему миру, популярность статей, аналитика ...">
+    <meta name="description"
+        content="Что в мире творится? Поиск новостей по всему миру, популярность статей, аналитика ...">
 
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
     <!-- <link rel="stylesheet" href="./pages/analytics.css"> -->
@@ -32,9 +33,11 @@
         <li class="menu-analytics__active"> / Аналитика</li>
     </ul>
     <section class="status">
-        <h2 class="status__title">Вы спросили: «Путешествия»</h2>
-        <p class="status__week">Новостей за неделю:
-            <span class="status__number"> 34 324</span>
+        <h2 class="status__title">Вы спросили:
+            <span class="status__title status__title_search"> «Путешествия»</span> 
+        </h2>
+        <p class="status__text">Новостей за неделю:
+            <span class="status__week"> 34 324</span>
         </p>
         <p class="status__text">Упоминаний в загаловках:
             <span class="status__number"> 235</span>
@@ -43,9 +46,9 @@
     <section class="diagramma">
         <h3 class="diagramma__title">Аналитика по дням</h3>
         <div class="diagramma__top">
-            <p class="diagramma__month">Дата
+            <p class="diagramma__count">Дата
                 <br>
-                (август)</p>
+             <span class="status__month"> (август)</span></p>
             <p class="diagramma__count">Кол-во упоминаний</p>
         </div>
         <ul class="diagramma__scale">
@@ -55,11 +58,17 @@
             <li class="diagramma__scale diagramma__scale_number">70</li>
             <li class="diagramma__scale diagramma__scale_number">100</li>
         </ul>
-        <div class="diagramma__img">
-            <img src="<%=require('./images/dates.png')%>" alt="date" class="diagramma__img diagramma__img_date">
-            <img src="<%=require('./images/Group_12.png')%>" alt="diagramma" class="diagramma__img diagramma__img_scale">
-            <!-- <img src="./images/dates.png" alt="date" class="diagramma__img diagramma__img_date"> -->
-            <!-- <img src="./images/Group_12.png" alt="diagramma" class="diagramma__img diagramma__img_scale"> -->
+        <div class="diagramma__graph">
+            <template id="diagramma__container">
+                <div class="diagramma__item">
+                    <div class="diagramma__dates">
+                        <p class="diagramma__date">19, </p>
+                    </div>
+                    <div class="diagramma__percents">
+                        <p class="diagramma__percent">47</p>
+                    </div>
+                </div>
+            </template>
         </div>
         <ul class="diagramma__scale">
             <li class="diagramma__scale diagramma__scale_number">0</li>

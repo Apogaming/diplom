@@ -29,7 +29,12 @@ module.exports = {
             {
                 test: /\.css$/, // применять это правило только к CSS-файлам
                 use: [
-                    isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
+                    isDev ? 'style-loader' :{
+                        loader: MiniCssExtractPlugin.loader,
+                        options:{
+                            publicPath: '../' 
+                        }
+                    } ,
                     {
                         loader:'css-loader',
                         options: {
@@ -75,7 +80,7 @@ module.exports = {
 
     plugins: [
         new MiniCssExtractPlugin({
-            filename: '[name].[contenthash].css',
+            filename: './css/[name].[contenthash].css',
         }),
         new webpack.DefinePlugin({
             NODE_ENV: JSON.stringify(process.env.NODE_ENV),
