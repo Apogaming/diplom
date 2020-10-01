@@ -19,7 +19,9 @@ const months = [
     'ноября',
     'декабря'];
 function fromDate() {
-    const from = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate() - 6} `
+    const todayDate = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
+    const sevenDay = new Date(date.setDate(date.getDate() - 7));
+    const from = `${sevenDay.getFullYear()}-${sevenDay.getMonth() + 1}-${sevenDay.getDate()}`;
     return from;
 }
 function times(str) {
